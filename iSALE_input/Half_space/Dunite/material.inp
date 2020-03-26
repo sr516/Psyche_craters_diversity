@@ -1,0 +1,33 @@
+#ISMAT ! iSale material input file identification string
+----------------------------------------------------------------
+MATNAME    Material name             : impactr         : mantle_         
+EOSNAME    EOS name                  : dunite_         : dunite_         
+EOSTYPE    EOS type                  : aneos           : aneos           
+STRMOD     Strength model            : ROCK            : ROCK            
+DAMMOD     Damage model              : IVANOV          : IVANOV          
+ACFL       Acoustic fluidisation     : NONE            : NONE            
+PORMOD     Porosity model            : NONE            : NONE        
+THSOFT     Thermal softening         : OHNAKA          : OHNAKA
+LDWEAK     Low density weakening     : POLY            : POLY
+----- Elastic strength parameters ------------------------------
+POIS       pois                      : 2.5000D-01      : 2.5000D-01      
+----- Thermal parameters ---------------------------------------
+TMELT0     tmelt0                    : 1.4360D+03      : 1.4360D+03  
+TFRAC      tfrac                     : 1.2000D+00      : 1.2000D+00 
+ASIMON     a_simon                   : 1.4000D+09      : 1.4000D+09 
+CSIMON     c_simon                   : 5.0000D+00      : 5.0000D+00      
+-------LUNDD parameters------------------------------------------
+YDAM0      ydam0 (ycoh)              : 1.0000D+04      : 1.0000D+04      
+FRICDAM    fricdam                   : 6.0000D-01      : 6.0000D-01      
+YLIMDAM    ylimdam                   : 3.5000D+09      : 3.5000D+09      
+-------LUNDI parameters------------------------------------------
+YINT0      yint0                     : 1.0000D+07      : 1.0000D+07      
+FRICINT    fricint                   : 0.8000D+00      : 0.8000D+00      
+YLIMINT    ylimint                   : 3.5000D+09      : 3.5000D+09      
+------IVANOV damage model parameters-----------------------------
+IVANOV_A   Damage parameter          : 1.0000D-04      : 1.0000D-04
+IVANOV_B   Damage parameter          : 1.0000D-11      : 1.0000D-11
+IVANOV_C   Damage parameter          : 3.0000D+08      : 3.0000D+08       
+<<END ! used to identify the end of this file
+
+

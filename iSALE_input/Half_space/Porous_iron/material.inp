@@ -1,0 +1,51 @@
+#ISMAT
+----------------------------------------------------------------
+MATNAME       Material name                 : impactr     : core_
+EOSNAME       EOS name                      : dunite_     : iron___
+EOSTYPE       EOS type                      : aneos       : aneos
+STRMOD        Strength model                : ROCK        : JNCK
+DAMMOD        Damage model                  : IVANOV      : NONE
+ACFL          Acoustic fluidisation         : NONE        : NONE
+PORMOD        Porosity model                : NONE        : WUNNEMA  
+THSOFT        Thermal softening             : OHNAKA      : JNCK
+LDWEAK        Low density weakening         : POLY        : POLY
+----- Elastic strength parameters ------------------------------
+POIS          pois                          : 2.5000D-01  : 3.0000D-01
+----- Thermal parameters ---------------------------------------
+TMELT0        tmelt0                        : 1.4360D+03  : 1.8110D+03
+TFRAC         tfrac                         : 1.2000D+00  : 1.2000D+00
+ASIMON        a_simon                       : 1.4000D+09  : 2.4250D+10
+CSIMON        c_simon                       : 5.0000D+00  : 2.1110D+00
+-------LUNDD parameters------------------------------------------
+YDAM0         ydam0 (ycoh)                  : 1.0000D+04  : XXXXXXXXXX
+FRICDAM       fricdam                       : 6.0000D-01  : XXXXXXXXXX
+YLIMDAM       ylimdam                       : 3.5000D+09  : XXXXXXXXXX
+-------LUNDI parameters------------------------------------------
+YINT0         yint0                         : 1.0000D+07  : XXXXXXXXXX
+FRICINT       fricint                       : 0.8000D+00  : XXXXXXXXXX
+YLIMINT       ylimint                       : 3.5000D+09  : XXXXXXXXXX
+----- Johnson-Cook strength parameters ---------------------------
+JC_A          strain coeff. a               : XXXXXXXXXX  : 1.7500D+08
+JC_B          strain coeff. b               : XXXXXXXXXX  : 3.8000D+08
+JC_N          strain exponent               : XXXXXXXXXX  : 0.3200D+00
+JC_C          str. rate coeff c             : XXXXXXXXXX  : 0.0600D+00
+JC_M          thermal soft.                 : XXXXXXXXXX  : 0.5500D+00
+JC_TREF       ref. temperature              : XXXXXXXXXX  : 2.9300D+02
+PMININ        Minimum pressure              : XXXXXXXXXX  : -2.440D+09
+----- Johnson-Cook damage parameters -----------------------------
+JNCK_D1       fracture constant d1          : XXXXXXXXXX  : -2.200D+00
+JNCK_D2       fracture constant d2          : XXXXXXXXXX  : 5.4300D+00 
+JNCK_D3       fracture constant d3          : XXXXXXXXXX  : -4.700D-01
+JNCK_D4       fracture constant d4          : XXXXXXXXXX  : 1.6000D-02
+JNCK_D5       fracture constant d5          : XXXXXXXXXX  : 6.3000D-01
+------IVANOV damage model parameters-----------------------------
+IVANOV_A      Damage parameter              : 1.0000D-04  : XXXXXXXXXX 
+IVANOV_B      Damage parameter              : 1.0000D-11  : XXXXXXXXXX 
+IVANOV_C      Damage parameter              : 3.0000D+08  : XXXXXXXXXX  
+---------porosity properties (Wuennemann) ------------------------
+ALPHA0        Initial porosity              : XXXXXXXXXX  : 1.667D+00
+EPSE0         Elastic threshold             : XXXXXXXXXX  : 0.D+00
+ALPHAX        Transition                    : XXXXXXXXXX  : 1.15D+00
+KAPPA         Exp Coefficient               : XXXXXXXXXX  : 9.7D-01
+CHI           Sound speed ratio             : XXXXXXXXXX  : 1.0D-00
+<<END ! used to identify the end of this file

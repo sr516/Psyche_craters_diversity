@@ -1,0 +1,41 @@
+#ISMAT ! iSale material input file identification string
+----------------------------------------------------------------
+MATNAME    Material name             : impactr         : core_           : mantle_         
+EOSNAME    EOS name                  : dunite_         : iron___         : dunite_         
+EOSTYPE    EOS type                  : aneos           : aneos           : aneos           
+STRMOD     Strength model            : ROCK            : JNCK            : ROCK            
+DAMMOD     Damage model              : IVANOV          : NONE            : IVANOV          
+ACFL       Acoustic fluidisation     : NONE            : NONE            : NONE            
+PORMOD     Porosity model            : NONE            : NONE            : NONE        
+THSOFT     Thermal softening         : OHNAKA          : JNCK            : OHNAKA
+LDWEAK     Low density weakening     : POLY            : POLY            : POLY
+----- Elastic strength parameters ------------------------------
+POIS       pois                      : 2.5000D-01      : 3.0000D-01      : 2.5000D-01      
+----- Thermal parameters ---------------------------------------
+TMELT0     tmelt0                    : 1.4360D+03      : 1.8110D+03      : 1.4360D+03  
+TFRAC      tfrac                     : 1.2000D+00      : 1.2000D+00      : 1.2000D+00 
+ASIMON     a_simon                   : 1.4000D+09      : 2.4250D+10      : 1.4000D+09 
+CSIMON     c_simon                   : 5.0000D+00      : 2.1110D+00      : 5.0000D+00      
+-------LUNDD parameters------------------------------------------
+YDAM0      ydam0 (ycoh)              : 1.0000D+04      : XXXXXXXXXX      : 1.0000D+04      
+FRICDAM    fricdam                   : 6.0000D-01      : XXXXXXXXXX      : 6.0000D-01      
+YLIMDAM    ylimdam                   : 3.5000D+09      : XXXXXXXXXX      : 3.5000D+09      
+-------LUNDI parameters------------------------------------------
+YINT0      yint0                     : 1.0000D+07      : XXXXXXXXXX      : 1.0000D+07      
+FRICINT    fricint                   : 0.8000D+00      : XXXXXXXXXX      : 0.8000D+00      
+YLIMINT    ylimint                   : 3.5000D+09      : XXXXXXXXXX      : 3.5000D+09      
+----- Johnson-Cook strength parameters -------------------------------------
+JC_A       strain coeff. a           : XXXXXXXXXX      : 1.7500D+08      : XXXXXXXXXX      
+JC_B       strain coeff. b           : XXXXXXXXXX      : 3.8000D+08      : XXXXXXXXXX
+JC_N       strain exponent           : XXXXXXXXXX      : 0.3200D+00      : XXXXXXXXXX
+JC_C       str. rate coeff c         : XXXXXXXXXX      : 0.0600D+00      : XXXXXXXXXX
+JC_M       thermal soft.             : XXXXXXXXXX      : 0.5500D+00      : XXXXXXXXXX
+JC_TREF    ref. temperature          : XXXXXXXXXX      : 2.9300D+02      : XXXXXXXXXX
+PMININ     Minimum pressure          : XXXXXXXXXX      : -2.440D+09      : XXXXXXXXXX
+------IVANOV damage model parameters-----------------------------
+IVANOV_A   Damage parameter          : 1.0000D-04      : XXXXXXXXXX      : 1.0000D-04
+IVANOV_B   Damage parameter          : 1.0000D-11      : XXXXXXXXXX      : 1.0000D-11
+IVANOV_C   Damage parameter          : 3.0000D+08      : XXXXXXXXXX      : 3.0000D+08       
+<<END ! used to identify the end of this file
+
+
