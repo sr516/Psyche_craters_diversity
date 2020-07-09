@@ -24,14 +24,6 @@ YLIMDAM       ylimdam                       : 3.5000D+09  : XXXXXXXXXX
 YINT0         yint0                         : 1.0000D+07  : XXXXXXXXXX
 FRICINT       fricint                       : 0.8000D+00  : XXXXXXXXXX
 YLIMINT       ylimint                       : 3.5000D+09  : XXXXXXXXXX
------ Johnson-Cook strength parameters ---------------------------
-JC_A          strain coeff. a               : XXXXXXXXXX  : 1.7500D+08
-JC_B          strain coeff. b               : XXXXXXXXXX  : 3.8000D+08
-JC_N          strain exponent               : XXXXXXXXXX  : 0.3200D+00
-JC_C          str. rate coeff c             : XXXXXXXXXX  : 0.0600D+00
-JC_M          thermal soft.                 : XXXXXXXXXX  : 0.5500D+00
-JC_TREF       ref. temperature              : XXXXXXXXXX  : 2.9300D+02
-PMININ        Minimum pressure              : XXXXXXXXXX  : -2.440D+09
 ----- Johnson-Cook damage parameters -----------------------------
 JNCK_D1       fracture constant d1          : XXXXXXXXXX  : -2.200D+00
 JNCK_D2       fracture constant d2          : XXXXXXXXXX  : 5.4300D+00 
